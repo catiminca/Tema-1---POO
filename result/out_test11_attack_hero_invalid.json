@@ -1,0 +1,198 @@
+[ {
+  "command" : "getCardAtPosition",
+  "x" : 2,
+  "y" : 0,
+  "output" : {
+    "mana" : 1,
+    "description" : "Premium card: No matter how many, his body will fight. Save your breath for the Mountain is strong.",
+    "name" : "Goliath",
+    "colors" : [ "Red", "Purple" ],
+    "attackDamage" : 5,
+    "health" : 8
+  }
+}, {
+  "command" : "getPlayerHero",
+  "playerIdx" : 1,
+  "output" : {
+    "mana" : 2,
+    "description" : "Standard card: Absolute order, a soldier must devote his life to his General.",
+    "name" : "General Kocioraw",
+    "colors" : [ "Green", "Yellow" ],
+    "health" : 30
+  }
+}, {
+  "command" : "getPlayerHero",
+  "playerIdx" : 2,
+  "output" : {
+    "mana" : 3,
+    "description" : "Standard card: Exact precision is her mantra, emotion is for the weak.",
+    "name" : "Empress Thorina",
+    "colors" : [ "Black", "Red" ],
+    "health" : 18
+  }
+}, {
+  "command" : "useAttackHero",
+  "cardAttacker" : {
+    "x" : 2,
+    "y" : 1
+  },
+  "error" : "Attacker card is frozen."
+}, {
+  "command" : "getCardsInHand",
+  "output" : [ {
+    "mana" : 1,
+    "description" : "Standard card: When he is near, close your eyes. They betray your mind.",
+    "name" : "Miraj",
+    "colors" : [ "Red", "Black" ],
+    "attackDamage" : 6,
+    "health" : 3
+  } ],
+  "playerIdx" : 2
+}, {
+  "command" : "getPlayerMana",
+  "playerIdx" : 2,
+  "output" : 5
+}, {
+  "command" : "getPlayerTurn",
+  "output" : 2
+}, {
+  "command" : "getCardAtPosition",
+  "x" : 0,
+  "y" : 0,
+  "output" : {
+    "mana" : 1,
+    "description" : "Standard card: Trained by the best, nothing will catch him off-guard.",
+    "name" : "Sentinel",
+    "colors" : [ "Black", "White" ],
+    "attackDamage" : 6,
+    "health" : 3
+  }
+}, {
+  "command" : "getPlayerHero",
+  "playerIdx" : 1,
+  "output" : {
+    "mana" : 2,
+    "description" : "Standard card: Absolute order, a soldier must devote his life to his General.",
+    "name" : "General Kocioraw",
+    "colors" : [ "Green", "Yellow" ],
+    "health" : 30
+  }
+}, {
+  "command" : "getPlayerHero",
+  "playerIdx" : 2,
+  "output" : {
+    "mana" : 3,
+    "description" : "Standard card: Exact precision is her mantra, emotion is for the weak.",
+    "name" : "Empress Thorina",
+    "colors" : [ "Black", "Red" ],
+    "health" : 18
+  }
+}, {
+  "command" : "useAttackHero",
+  "cardAttacker" : {
+    "x" : 1,
+    "y" : 1
+  },
+  "error" : "Attacked card is not of type 'Tank'."
+}, {
+  "command" : "useAttackHero",
+  "cardAttacker" : {
+    "x" : 3,
+    "y" : 1
+  },
+  "error" : "Attacker card has already attacked this turn."
+}, {
+  "command" : "getPlayerMana",
+  "playerIdx" : 2,
+  "output" : 14
+}, {
+  "command" : "getPlayerMana",
+  "playerIdx" : 1,
+  "output" : 16
+}, {
+  "command" : "getCardsOnTable",
+  "output" : [ [ {
+    "mana" : 1,
+    "description" : "Standard card: Trained by the best, nothing will catch him off-guard.",
+    "name" : "Sentinel",
+    "colors" : [ "Black", "White" ],
+    "attackDamage" : 6,
+    "health" : 3
+  }, {
+    "mana" : 1,
+    "description" : "Standard card: A drink can always be served, with the blood of his enemies.",
+    "name" : "Berserker",
+    "colors" : [ "Purple", "Yellow" ],
+    "attackDamage" : 5,
+    "health" : 1
+  } ], [ {
+    "mana" : 2,
+    "description" : "Premium card: Insanity is always an option, now it is an absolute.",
+    "name" : "Miraj",
+    "colors" : [ "Red", "Black" ],
+    "attackDamage" : 5,
+    "health" : 4
+  }, {
+    "mana" : 1,
+    "description" : "Standard card: When he is near, close your eyes. They betray your mind.",
+    "name" : "Miraj",
+    "colors" : [ "Red", "Black" ],
+    "attackDamage" : 6,
+    "health" : 3
+  } ], [ {
+    "mana" : 1,
+    "description" : "Premium card: No matter how many, his body will fight. Save your breath for the Mountain is strong.",
+    "name" : "Goliath",
+    "colors" : [ "Red", "Purple" ],
+    "attackDamage" : 5,
+    "health" : 8
+  }, {
+    "mana" : 2,
+    "description" : "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+    "name" : "Warden",
+    "colors" : [ "Brown", "Blue" ],
+    "attackDamage" : 7,
+    "health" : 5
+  } ], [ {
+    "mana" : 1,
+    "description" : "Premium card: The will of Gods has been spoken, obey and you shall be saved...or not.",
+    "name" : "Disciple",
+    "colors" : [ "Yellow", "White" ],
+    "attackDamage" : 0,
+    "health" : 4
+  }, {
+    "mana" : 1,
+    "description" : "Standard card: A drink can always be served, with the blood of his enemies.",
+    "name" : "Berserker",
+    "colors" : [ "Purple", "Yellow" ],
+    "attackDamage" : 5,
+    "health" : 2
+  } ] ]
+}, {
+  "command" : "getCardsInHand",
+  "output" : [ {
+    "mana" : 1,
+    "description" : "Premium card: No matter how many, his body will fight. Save your breath for the Mountain is strong.",
+    "name" : "Goliath",
+    "colors" : [ "Red", "Purple" ],
+    "attackDamage" : 4,
+    "health" : 8
+  } ],
+  "playerIdx" : 2
+}, {
+  "command" : "getCardsInHand",
+  "output" : [ {
+    "mana" : 2,
+    "description" : "Standard card: The days are cold and so are we. We hope we can close our eyes again.",
+    "name" : "Winterfell",
+    "colors" : [ "White", "Blue" ]
+  }, {
+    "mana" : 2,
+    "description" : "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+    "name" : "Warden",
+    "colors" : [ "Brown", "Blue" ],
+    "attackDamage" : 7,
+    "health" : 5
+  } ],
+  "playerIdx" : 1
+} ]
